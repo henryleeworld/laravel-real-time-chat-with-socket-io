@@ -1,4 +1,4 @@
-# Laravel 7 使用 Socket.IO 開發即時聊天室
+# Laravel 10 使用 Socket.IO 開發即時聊天室
 
 Socket.IO 是一個用於建立即時聊天網頁應用程式的跨平台 JavaScript 函式庫，可以消除不同平台上傳輸方式的差異性，讓開發者更容易發展即時性的網頁應用程式。在傳輸的方式上，Socket.IO 使用 WebSocket 作為主要的傳輸協定，而在某些瀏覽器不支援 WebSocket 的狀況下，則會自動改用其他的方式來傳輸。即時聊天室不須再花時間等待網頁刷新，即可馬上獲取網頁聊天室中的訊息，達到即時聊天的效果。
 
@@ -30,5 +30,5 @@ $ npm run socket-io-server
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/RTIv2Om.png)
+![](https://i.imgur.com/UWgOqaW.png)
 > 透過在伺服器與客戶端裝置之間建立持續的連線，可以即時的傳送資料給對方
